@@ -1,0 +1,128 @@
+# LCA Learning Tools — GitHub Pages static site
+# Keep index.html, CSS, JavaScript, images, and other published assets tracked.
+
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux / file managers
+*~
+.directory
+.Trash-*/
+.nfs*
+
+# Editor and IDE local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+*.kate-swp
+.history/
+
+# Logs and runtime files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets/
+credentials.json
+
+# Dependencies and local environments
+node_modules/
+bower_components/
+.pnp.*
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Generated output and caches
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.eslintcache
+.sass-cache/
+*.map
+
+# Local builds (uncomment if you intentionally generate these)
+# dist/
+# build/
+# out/
+# site/
+
+# Temporary files and backups
+*.backup
+*.old
+*.save
+*.swn
+*.swo
+*.swp
+*.lock.tmp
+*.zip.tmp
+
+# Local test and browser artefacts
+playwright-report/
+test-results/
+*.trace.zip
+
+# Note: Do NOT ignore index.html, *.html, *.css, *.js,
+# images, fonts, or downloadable learning resources needed by GitHub Pages.
